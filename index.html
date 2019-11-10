@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <!-- Bootstrap CSS
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+      <!-- TYPOGRAPHY -->
+      <div class="container">
+        <h1 class="page-header">Hello, world! <small>Secondary text</small></h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi voluptatem, mollitia eos aliquid excepturi exercitationem quia nulla ducimus maiores.</p>
+        <p><mark>Lorem ipsum dolor sit amet.</mark>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, suscipit! Itaque facilis sapiente asperiores. Eius totam dignissimos obcaecati, doloremque asperiores amet explicabo nulla earum <del>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, debitis.</del> repellendus quos quo sit voluptatum sequi. Assumenda obcaecati a odit eligendi vero labore nihil animi, dolor ex quam excepturi dolore libero magnam sapiente est numquam facilis?</p>
+
+        <hr>
+
+        <!-- ALIGNMENT & TRANSFORMATION -->
+        <p class="text-left text-lowercase">Left aligned text.</p>
+        <p class="text-center text-uppercase">Center aligned text.</p>
+        <p class="text-right text-capitalize">Right aligned text.</p>
+        <p class="text-justify">Justified text.</p>
+        <p class="text-nowrap">No wrap text.</p>
+
+        <!-- QUICK FLOATS -->
+        <div class="float-right">div floated to right</div>
+        <div class="float-left">div floated to left</div>
+
+        <!-- CLEAR FLOAT -->
+        <div class="clearfix"></div>
+        <hr>
+
+        <!-- BLOCK QUOTE -->
+        <blockquote class="blockquote">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam facere cupiditate ipsum dolor suscipit porro enim inventore! Optio, odit accusamus?</p>
+        <footer>Quote by <cite title="John Doe">John Doe</cite></footer>
+        </blockquote>
+
+        <hr>
+
+        <!-- LISTS -->
+        <h2>Lists</h2>
+        <ul class="list-unstyled">
+            <li class>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+            <li>Item Four</li>
+        </ul>
+
+        <h5>Good for Menus/Navbar</h5>
+        <ul class="list-inline">
+                <li class="list-inline-item">Item One</li>
+                <li class="list-inline-item">Item Two</li>
+                <li class="list-inline-item">Item Three</li>
+                <li class="list-inline-item">Item Four</li>
+            </ul>
+
+        <!-- CODE -->
+        <code>&lt;h1&gt;Heading Text&lt;/h1&gt;</code>
+
+        <hr>
+
+        <!-- CONTEXUAL COLORS -->
+        <h5>Contextual Colors</h5>
+        <p class="text-primary">text-primary</p>
+        <p class="text-success">text-success</p>
+        <p class="text-info">text-info</p>
+        <p class="text-warning">text-warning</p>
+        <p class="text-danger">text-danger</p>
+        <p class="text-muted">text-muted</p>
+
+        <!-- CONTEXUAL BACKGROUND COLORS -->
+        <h5>Background Colors</h5>
+        <p class="bg-primary">bg-primary</p>
+        <p class="bg-success">bg-success</p>
+        <p class="bg-info">bg-info</p>
+        <p class="bg-warning">bg-warning</p>
+        <p class="bg-danger">bg-danger</p>
+        <p class="bg-muted">bg-muted</p>
+
+      </div>
+      <hr>
+
+      <div class="container">
+          <!-- BUTTONS -->
+        <h5>Buttons</h5>
+          <button class="btn btn-default">Default</button>
+          <a href="#" class="btn btn-default" role="button">Link</a>
+          <input type="submit" class="btn btn-default" value="Submit">
+
+          <!-- CONTEXTUAL STYLE OF BUTTONS -->
+          <button class="btn btn-primary">primary</button>
+          <button class="btn btn-success">success</button>
+          <button class="btn btn-info">info</button>
+          <button class="btn btn-warning">warning</button>
+          <button class="btn btn-danger">danger</button>
+          <button class="btn btn-muted">muted</button>
+
+          <!-- BUTTONS SIZES -->
+          <button class="btn btn-primary btn-lg">btn-lg</button>
+          <button class="btn btn-primary btn-sm">btn-sm</button>
+          <button class="btn btn-primary btn-xs">btn-xs</button>
+          <button class="btn btn-primary btn-xs" disabled="disabled">btn-xs</button>
+
+      </div>
+      <hr>
+      <!-- FORMS -->
+      <div class="container">
+          <form>
+              <div class="form-group">
+                  <label for="">Name</label>
+                  <input type="text" class="form-control" placeholder="Add Name">
+              </div>
+              <div class="form-group">
+                  <div class="form-group">
+                  <label for="">Email</label>
+                    <input type="email" class="form-control" placeholder="Add Email">
+                </div>
+                        <label for="">Message</label>
+                        <textarea type="message" class="form-control" placeholder="Add Message"></textarea>
+                    </div>
+                <div class="form-group">
+                    <label>Gender</label>
+                        <select class="form-control">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                </div>
+
+                <div class="form-group">
+                        <label>Upload file</label>
+                        <input type="file">
+                        <p class="help-block">Only png and jpg allowed</p>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox">Check Me Out
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-default">Submit</button>
+
+          </form>
+      </div>
+
+     
+
+      <div style="height:400px"></div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
